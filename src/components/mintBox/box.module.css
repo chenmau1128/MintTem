@@ -1,6 +1,6 @@
 .boxWrapper {
-  width: 50%;
-  letter-spacing: 1px;
+  width: 20%;
+  letter-spacing: 2px;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -19,18 +19,19 @@
   align-items: center;
   padding: 5%;
   margin: 5%;
-  background-color: gainsboro;
+  background-color: #00000000;
 }
 
 .boxWrapperTop,
 .boxWrapperBottom {
-  height: 20%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  font-size: large;
-  gap: 10px;
+    height: 20%;
+    display: flex;
+    color: #FFD700;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+    gap: 10px;
 }
 
 .boxWrapperTopContent {
@@ -42,7 +43,7 @@
 }
 
 .boxWrapperTop span {
-  color: black;
+  color: #FFD700;
   font-size: x-large;
 }
 
